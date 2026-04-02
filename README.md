@@ -1,1 +1,0 @@
-# TA_Sejong_AdvancedCProgramming_C
