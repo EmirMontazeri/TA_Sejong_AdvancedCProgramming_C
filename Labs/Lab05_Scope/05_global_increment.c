@@ -2,7 +2,7 @@
 // Global variable
 int x = 10;
 void myFunction() {
-  x = ++x;  // Increment the GLOBAL value of x by 1
+  x = x++;  // Increment the GLOBAL value of x by 1
 }
 int main() {
   myFunction();
