@@ -27,7 +27,7 @@ Each session folder holds the slides and every code example from them as a stand
 
 ## Notes on the examples
  
-- Every `.c` file is a complete program and should run separately using any local or online C compiler or online compiler.
+- Every `.c` file is a complete program and should run separately using any local or online C compiler.
 - Some examples read keyboard input; when using online compiler, one that supports standard input should be used.
 - Files ending in `_ERROR.c` are **meant not** to compile as they only show a mistake discussed on the slides (e.g. using a local variable outside its scope).
 
