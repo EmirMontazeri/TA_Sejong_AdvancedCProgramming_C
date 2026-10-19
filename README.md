@@ -25,16 +25,11 @@ Each session folder holds the slides and every code example from them as a stand
 | Lab Assignment 1 | Pointer bugs, `scanf` vs. scansets, 1D arrays | [PDF](Assignments/Assign1_AdvancedC.pdf) |
 | Midterm Exam | Arrays, strings, pointers, memory | [PDF](<Assignments/MidtermExam(C_Programming).pdf>) |
 
-## Running the examples
-
-Any C compiler works. With GCC:
-
-```bash
-gcc Labs/Lab10_FunctionPointers/02_fp_callback.c -o callback
-./callback
-```
-
-Files ending in `_ERROR.c` are meant **not** to compile but they show a mistake discussed on the slides (e.g. using a local variable outside its scope). Some examples read keyboard input; if you use an online compiler, pick one that supports standard input.
+## Notes on the examples
+ 
+- Every `.c` file is a complete program and should run separately using any local or online C compiler or online compiler.
+- Some examples read keyboard input; when using online compiler, one that supports standard input should be used.
+- Files ending in `_ERROR.c` are **meant not** to compile as they only show a mistake discussed on the slides (e.g. using a local variable outside its scope).
 
 ## License
 
